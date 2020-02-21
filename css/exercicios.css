@@ -1,0 +1,62 @@
+header{
+    padding: 0.5em 0;
+}
+img {
+    max-width: 100%;
+}
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+.logo {
+    display: inline-block;
+    padding: 0 1%;
+    vertical-align: middle;
+}
+.barra-nav {
+    display: inline-block;
+    margin: 0.4em 0;
+    vertical-align: middle;
+}
+.menu-principal{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.menu-principal li {
+    float: left;
+}
+.busca{
+    display: inline-block;
+    vertical-align: middle;
+}
+.destaque {
+    margin-top: 1em;
+}
+.secao {
+    float: left;
+    width: 100%;
+    padding: 0 1%;
+}
+
+.mini {
+    float: left;
+    width: 50%;
+}
+
+@media (min-width: 600px) {
+    html {
+        font-size: 1.125em;
+    }
+    .secao {
+        width: 50%;
+    }
+}
+@media (min-width: 1000px) {
+    html {
+        font-size: 1.25em;
+    }
+    .secao {
+        width: 33.33%;
+    }
+}
