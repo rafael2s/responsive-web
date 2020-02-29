@@ -1,4 +1,4 @@
-# Added responsive web knowledge.
+# Adding knowledge in responsive web. 
 
 ## Course done in [Alura](https://www.alura.com.br/)<br />
 
